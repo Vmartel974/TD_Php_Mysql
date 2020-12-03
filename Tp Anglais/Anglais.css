@@ -1,0 +1,11 @@
+#bandeau {
+    color:white ;
+    font-size: 40px;
+    text-align: center;
+    widows: 20000px;
+    height:50px;
+    background-color:#444F;
+  }
+.body{
+  text-align: center;
+}
