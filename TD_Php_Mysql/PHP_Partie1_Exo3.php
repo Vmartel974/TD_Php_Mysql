@@ -19,8 +19,8 @@
     <div>
         <?php
         $tab0 = array ('NOM ', 'PRENOM ', 'MDP');
-        $tab1 = array ('Caudron ', 'Clement ', '123');
-        $tab2 = array ('Cauet ', 'Clement ', '456');
+        $tab1 = array ('Martel ', 'Vincent ', '123');
+        $tab2 = array ('Martel ', 'Vincent ', '456');
         $tab3 = array ('De Almeda ', 'Nicolas ', '789');
 
         echo '<table><tr>'; //Creation d'un tableau
