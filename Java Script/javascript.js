@@ -10,7 +10,7 @@ function surfaceRectangle() {
 
 //Calcul rayon cercle 
 function surfaceCercle() {
-    var rayon = parseFloat(prompt("Entrez le rayon du cercle : "));
-    alert("Le rayon vaut" + 3.14 * (Number(rayon) * Number(rayon)));
+    var rayon = parseFloat(prompt("Entrez la longueur du cercle : "));
+    alert("Le rayon vaut " + 3.14 * (Number(rayon) * Number(rayon)));
 
 }   
