@@ -63,11 +63,12 @@ function boucle2() {
 //Fonction tab soustrait
 var tab = [-2, 1, 4];
 
-function additionne(x) {
-    return (x - 2);
+function soustrait(x) {
+    if (x >= 0) return (x - 2);
+    else return "Nombre négatif!";
 }
 
-function affiche2() {
-    alert(additionne(tab[tab.length - 3]));
-    alert(additionne(tab[tab.length - 1]));
+function affiche3() {
+    alert(soustrait(tab[tab.length - 3]));
+    alert(soustrait(tab[tab.length - 1]));
 }
