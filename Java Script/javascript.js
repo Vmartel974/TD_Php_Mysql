@@ -43,20 +43,31 @@ function affiche2() {
 }
 
 //Fonction tableau
-function boucle(){
-    var tab = new Array(5);
-    for (var i=0;i<tab.length;i++)
-    {
-    tab[i]=i*i;
+function boucle() {
+    var tab = new Array(3);
+    for (var i = 0; i < tab.length; i++) {
+        tab[i] = i * i;
     }
     alert(tab);
-    }
-    function boucle2(){
-    var longueur=parseInt(prompt('Quelle est la longueur souhaitée du tableau?'));
-    var tab= new Array();
-    for (var i=0;i<longueur;i++)
-    {
-    tab[i]=i*i;
+}
+
+function boucle2() {
+    var longueur = parseInt(prompt('Quelle est la longueur souhaitée du tableau?'));
+    var tab = new Array();
+    for (var i = 0; i < longueur; i++) {
+        tab[i] = i * i;
     }
     alert(tab);
-    } 
+}
+
+//Fonction tab soustrait
+var tab = [-2, 1, 4];
+
+function additionne(x) {
+    return (x - 2);
+}
+
+function affiche2() {
+    alert(additionne(tab[tab.length - 3]));
+    alert(additionne(tab[tab.length - 1]));
+}
