@@ -16,6 +16,7 @@ function surfaceCercle() {
     alert("Le périmètre du cercle vaut " + Number(rayon) * 2 * 3.14 + " cm");
 }
 
+//Calcule fonction multiplie
 var a = 3;
 var b = 2;
 
@@ -23,8 +24,39 @@ function multiplie(x = 8) {
     return 3 * x;
 }
 
-function affiche() {
+function affiche1() {
     alert(multiplie(a));
     alert(multiplie(b));
-    alert(multiplie())
+    alert(multiplie());
 }
+
+//Fonction additionne 
+var tab = [-2, 1, 4];
+
+function additionne(x) {
+    return (x + 2);
+}
+
+function affiche2() {
+    alert(additionne(tab[tab.length - 3]));
+    alert(additionne(tab[tab.length - 1]));
+}
+
+//Fonction tableau
+function boucle(){
+    var tab = new Array(5);
+    for (var i=0;i<tab.length;i++)
+    {
+    tab[i]=i*i;
+    }
+    alert(tab);
+    }
+    function boucle2(){
+    var longueur=parseInt(prompt('Quelle est la longueur souhaitée du tableau?'));
+    var tab= new Array();
+    for (var i=0;i<longueur;i++)
+    {
+    tab[i]=i*i;
+    }
+    alert(tab);
+    } 
