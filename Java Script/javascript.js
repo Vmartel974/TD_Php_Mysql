@@ -139,3 +139,12 @@ Modif.addEventListener("dblclick", function(){
     Modif.style.marginLeft = "0%";
 
 });
+
+//Echange d'image/texte
+function image1() {
+    document.getElementById("image").src = "Dragon_Ball.png";
+  }
+  function image2(){
+    document.getElementById("image").src = "GTO.png";
+  }
+    
