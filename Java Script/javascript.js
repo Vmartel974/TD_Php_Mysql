@@ -108,15 +108,34 @@ function jourDeLaSemaine() {
 }
 
 //changement de couleurs 
-function couleurs1(){
+function couleurs1() {
     document.getElementById("demo").style.color = "lime";
 }
-function couleurs2(){
+
+function couleurs2() {
     document.getElementById("demo").style.color = "navy";
 }
-function couleurs3(){
+
+function couleurs3() {
     document.getElementById("demo").style.color = "black";
 }
-function couleurs4(){
+
+function couleurs4() {
     document.getElementById("demo").style.color = "red";
 }
+
+//modification de texte 
+const Modif = document.getElementById ("texte");
+ Modif.addEventListener('click', function()
+{
+    Modif.style.width = "1px";
+    Modif.style.marginLeft = "50%";
+    Modif.style.textAlign = "center";
+});
+
+Modif.addEventListener("dblclick", function(){
+    Modif.style.textAlign = "left";
+    Modif.style.width = "500px";
+    Modif.style.marginLeft = "0%";
+
+});
